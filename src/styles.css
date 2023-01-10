@@ -1,13 +1,19 @@
 body {
   font-family: "Roboto Slab", serif;
-  background: black;
+  background: #2d3142;
 }
-
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
-
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("../images/wallpaper.jpeg");
@@ -16,7 +22,7 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 100px 0;
+  padding: 200px 0;
 }
 
 header h1 {
@@ -50,6 +56,41 @@ header a {
   text-decoration: none;
   display: inline-block;
   border-radius: 10px;
+}
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(2, 4, 3, 0.8), rgba(2, 4, 3, 0.8)),
+    url("../images/blackpink.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  width: 600pxpx;
+}
+footer h4 {
+  font-family: "Playfair Display SC";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+footer p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+  margin: 20px;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  color: white;
+  opacity: 0.7;
 }
 @media (max-width: 900px) {
   header {
