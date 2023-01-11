@@ -39,6 +39,10 @@ body {
   text-align: center;
   text-decoration: none;
 }
+.btn:hover {
+  background: #f694c1;
+  color: #2d3142;
+}
 .spotify {
   margin: 0 auto;
   aspect-ratio: 1/ 1;
@@ -72,6 +76,9 @@ section.secondary {
 .fs-5 {
   font-family: "Poppins", sans-serif;
   letter-spacing: 4px;
+}
+.embeds {
+  margin: 30px 0;
 }
 main {
   background-color: #2d3142;
@@ -196,7 +203,7 @@ footer h3 {
 footer p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   opacity: 0.7;
 }
@@ -231,5 +238,10 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+}
+@media (min-width: 1025px) {
+  .song-header {
+    height: 250px;
   }
 }
