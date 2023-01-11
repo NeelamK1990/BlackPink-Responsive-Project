@@ -131,12 +131,13 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("../images/wallpaper.jpeg");
   width: 100%;
+
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 15px 0;
-  background-position: center;
+  padding: 30px 0;
+  background-position: top;
 }
 
 header h1 {
@@ -177,6 +178,8 @@ footer {
     url("../images/bpink2.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top;
+  padding: 15px 0;
 }
 footer h3 {
   font-family: "Playfair Display SC";
