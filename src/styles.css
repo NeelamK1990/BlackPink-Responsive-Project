@@ -45,8 +45,9 @@ body {
 }
 .spotify {
   margin: 0 auto;
-  aspect-ratio: 1/ 1;
+  aspect-ratio: 1/1;
   width: 100%;
+  height: 100%;
 }
 .spotify-embeds {
   margin: 0 auto;
@@ -238,6 +239,9 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .spotify {
+    height: 152px;
   }
 }
 @media (min-width: 1025px) {
